@@ -29,3 +29,8 @@ Simple WhatsApp Bot
 ```bash
 > node index.js
 ```
+ SOSMED:
+ 
+ Instagram: @arpunchs
+ 
+ Youtube: Drawl Nag
