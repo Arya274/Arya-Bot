@@ -1,15 +1,15 @@
-# wabot-aq
+# NfQ-BoT
 Simple WhatsApp Bot
 
 ### FOR TERMUX USER
 ```bash
 > pkg update && pkg upgrade
-> pkg install git -y
-> pkg install nodejs -y
-> pkg install ffmpeg -y
-> pkg install imagemagick -y
-> git clone https://github.com/Nurutomo/wabot-aq
-> cd wabot-aq
+> pkg install git
+> pkg install nodejs
+> pkg install ffmpeg
+> pkg install imagemagick
+> git clone https://github.com/Arya274/Arya-Bot
+> cd Arya-Bot
 > npm install
 ```
 ###### Run
@@ -21,8 +21,8 @@ Simple WhatsApp Bot
 
 ### FOR WINDOWS/VPS/RDP USER
 ```bash
-> git clone https://github.com/Nurutomo/wabot-aq
-> cd wabot-aq
+> git clone https://github.com/Arya274/Arya-Bot
+> cd Arya-Bot
 > npm install
 ```
 ###### Run
