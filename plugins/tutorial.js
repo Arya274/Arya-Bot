@@ -24,7 +24,7 @@ _Bisa kalian liat tutorialnya di_
 https://www.youtube.com/c/DrawlNag
 `.trim(), m)
 }
-handler.command = /^(info)$/i
+handler.command = /^(tutorial)$/i
 handler.owner = false
 handler.mods = false
 handler.premium = false
