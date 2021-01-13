@@ -32,10 +32,10 @@ let handler  = async (m, { conn, usedPrefix: _p }) => {
       .replace(/%week/g, week)
       .replace(/%date/g, date)
       .replace(/%time/g, time): `
-🤖 [NFQ BOT] 🤖
-Created Bye: @Drawl Nag
+🤖 [ANJO BOT] 🤖
+Created Bye: ANJO
 
-Hi, ${name} 👋
+OIR, ${name} 👋
 Exp: ${exp}
 
 📟 Waktu: ${time}
