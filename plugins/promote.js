@@ -1,6 +1,7 @@
 let handler = async (m, { conn, args }) => {
   let users = m.mentionedJid
   conn.groupMakeAdmin(m.chat, users)
+conn.reply(m.chat, 'Berhasil menambahkan user sebagai Admin !',m)
 }
 handler.command = /^(promote|admin|\^)$/i
 handler.owner = false

@@ -1,6 +1,7 @@
 let handler = async (m, { conn, args }) => {
   let users = m.mentionedJid
   conn.groupDemoteAdmin(m.chat, users)
+conn.reply(m.chat, 'Aowkwkwk anda kena demote Owner !! Selamat ya cuy...',m)
 }
 handler.command = /^(demote|member|v)$/i
 handler.owner = false

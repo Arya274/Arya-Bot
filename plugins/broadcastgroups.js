@@ -1,9 +1,9 @@
 let handler  = async (m, { conn, args }) => {
   let groups = conn.chats.array.filter(v => v.jid.endsWith('g.us') && !v.read_only && v.message).map(v => v.jid)
-  for (let id of groups) conn.sendMessage(id, args.join` ` + (/broadcast/im.test(args.join` `) ? '' : ('\n' + readMore + '*[BROADCAST GROUP]*')), m.mtype, m.msg.contextInfo ? {
+  for (let id of groups) conn.sendMessage(id, args.join` ` + (/broadcast/im.test(args.join` `) ? '' : ('\n' + readMore + '[Broadcast GC [NfQ]')), m.mtype, m.msg.contextInfo ? {
     contextInfo: m.msg.contextInfo
   } : {})
-  conn.reply(m.chat, `_Mengirim pesan broadcast ke ${groups.length} grup_`, m)
+  conn.reply(m.chat, `_Mengirim pesan broadcast ke jika ada kendala Instagram:@arpunchs ${groups.length} grup_`, m)
 }
 handler.command = /^(broadcast|bc)(group|grup|gc)$/i
 handler.owner = true

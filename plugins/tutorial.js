@@ -14,7 +14,7 @@ Untuk Githubnya..
 6) $ls
 7) $cd Arya-Bot
 
-yang *terakhirr* ..
+yang *terakhirr*..
 Penginstalannya cuy :)
 8) npm i
 9) node index.js

@@ -38,15 +38,14 @@ Created Bye: @Drawl Nag
 Hi, ${name} 👋
 Exp: ${exp}
 
-📟 Waktu: ${time}
-📆 Tanggal: ${week}, ${date}
-
-${more.repeat(1000)}
-
 Cara Tambah XP:
 +1 Exp/pesan biasa
 +10 Exp/command
 
+📟 Waktu: ${time}
+📆 Tanggal: ${week}, ${date}
+
+${more.repeat(1000)}
 ╠═════✪〘 Menu 〙✪═══
 ║
 ╠═〘 Xp 〙 ═
@@ -60,12 +59,22 @@ Cara Tambah XP:
 ╠═〘 Tutor BoT 〙 ═
 ╠➥ ${_p}tutorial
 ║
+╠═〘 Quotes 〙 ═
+╠➥ ${_p}bucin
+╠➥ ${_p}pantun
+╠➥ ${_p}murothal
+╠➥ ${_p}quran
+║
+╠═〘 Kerang 〙 ═
+╠➥ ${_p}apakah
+╠➥ ${_p}kapankah
+╠➥ ${_p}kapan
+║
 ╠═〘 Others 〙 ═
 ╠➥ ${_p}qr <teks>
 ╠➥ ${_p}stiker (caption)
 ╠➥ ${_p}stiker <url>
 ╠➥ ${_p}toimg (reply)
-╠➥ ${_p}bucin
 ╠➥ ${_p}ssweb <url>
 ╠➥ ${_p}sswebf <url>
 ╠➥ ${_p}google <pencarian>
